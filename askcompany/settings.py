@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'instagram',
     'blog1',
     'blog2',
+    'myapp',
 ]
 
 MIDDLEWARE = [

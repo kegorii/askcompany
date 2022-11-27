@@ -9,4 +9,5 @@ from insta.models import Gamsung
 
 @admin.register(Gamsung)
 class GamsungAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['id', 'subject', 'contents', 'created_at', 'updated_at']
+    list_display_links =['subject']
